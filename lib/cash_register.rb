@@ -22,7 +22,8 @@ class CashRegister
   end
   
   def self.items
-    temp = @@items.collect do |item|
+    temp = @@items
+    return temp
       
   end
   
